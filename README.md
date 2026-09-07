@@ -9,5 +9,21 @@ Front-End / React Developer
 * 🌐 [LinkedIn](https://linkedin.com)
 * 💻 [GitHub](https://github.com)
 * 💬 [Telegram](https://t.me)
+* 
+## About me
+I'm a front end engineer with experience developing complex, high profile web applications collaborating with both small and large teams. I specialise in JavaScript,thriving in an agile environmentleveraging modern technologies such as React and Redux. I pride myselfin writing scalable, elegant code — creating simple solutions to complex problems.
+
+##Skills
+* JavaScript
+* Node.js
+* TypeScript
+* HTML
+* CSS / SCSS / LESS
+* React
+* Redux
+* Webpack / Vite
+* Git / GitHub / GitLab / Bitbucket
+* Photoshop
+* Figma
 
 </div>
