@@ -1,3 +1,5 @@
+<div align="left">
+
 # Albert Braun
 Front-End / React Developer
 
@@ -7,3 +9,5 @@ Front-End / React Developer
 * 🌐 [LinkedIn](https://linkedin.com)
 * 💻 [GitHub](https://github.com)
 * 💬 [Telegram](https://t.me)
+
+</div>
