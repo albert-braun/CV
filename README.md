@@ -21,9 +21,16 @@ I'm a front end engineer with experience developing complex, high profile web ap
 * CSS / SCSS / LESS
 * React
 * Redux
+* Redux Toolkit
 * Webpack / Vite
 * Git / GitHub / GitLab / Bitbucket
 * Photoshop
 * Figma
+* Tailwind
+* 
+
+## Education
+Provisor, The Ivano-Frankivsk National Medical University
+08/2009 - 06/2015
 
 </div>
