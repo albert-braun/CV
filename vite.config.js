@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // Плагин v4 оставляем пустым
   ],
-  base: '/Project-list/'
+  base: '/CV/'
 })
