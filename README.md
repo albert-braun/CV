@@ -13,7 +13,7 @@ Front-End / React Developer
 ## About me
 I'm a front end engineer with experience developing complex, high profile web applications collaborating with both small and large teams. I specialise in JavaScript,thriving in an agile environmentleveraging modern technologies such as React and Redux. I pride myselfin writing scalable, elegant code — creating simple solutions to complex problems.
 
-##Skills
+## Skills
 * JavaScript
 * Node.js
 * TypeScript
