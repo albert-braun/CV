@@ -1,4 +1,4 @@
-* Albert Braun
+## * Albert Braun
 * Front-End / React Developer
 
 * Contact Information
