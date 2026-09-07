@@ -8,11 +8,27 @@ import rectangle from "../../images/Team/Rectangle.svg";
 import plane from "../../images/Team/plane.png";
 import contactBg from "../../images/Team/bg.webp";
 
-const MEMBERS = [
-  { img: one, title: "Frontend Developer" },
-  { img: two, title: "Frontend Developer" },
-  { img: three, title: "Frontend Developer" },
-  { img: four, title: "Frontend Developer" },
+const STACK = [
+  {
+    img: one,
+    title: "Node.js",
+    text: "JavaScript on the server when a project needs APIs or tooling around the UI.",
+  },
+  {
+    img: two,
+    title: "Tailwind CSS",
+    text: "Utility-first styling for fast, consistent layouts next to SCSS and LESS.",
+  },
+  {
+    img: three,
+    title: "Redux Toolkit",
+    text: "Predictable state for larger React apps, on top of classic Redux.",
+  },
+  {
+    img: four,
+    title: "GitLab & Bitbucket",
+    text: "Same Git workflow across GitHub, GitLab and Bitbucket in team projects.",
+  },
 ];
 
 export default function Team() {
@@ -21,22 +37,22 @@ export default function Team() {
       <div className="flex w-full max-w-[1160px] flex-col items-center">
         <Reveal className="mb-10 max-w-[510px] text-center md:mb-16">
           <h3 className="mb-[6px] text-[14px] uppercase tracking-[2px]">
-            teams
+            also using
           </h3>
           <h2 className="mb-[10px] text-[clamp(28px,4vw,32px)] tracking-[1px] text-white">
-            My <span className="text-[#194BFD]">team members</span>
+            More <span className="text-[#194BFD]">tools I work with</span>
           </h2>
           <p className="mx-auto max-w-[426px] leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias
-            quidem reprehenderit molestiae veniam? Inventore.
+            Node.js, Tailwind, Redux Toolkit and Git across GitHub, GitLab and
+            Bitbucket — the rest of the stack from my CV.
           </p>
         </Reveal>
 
         <div className="mb-12 grid w-full grid-cols-1 justify-items-center gap-8 sm:grid-cols-2 lg:mb-[72px] lg:grid-cols-4 lg:gap-6">
-          {MEMBERS.map((member, index) => (
+          {STACK.map((member, index) => (
             <Reveal
               as="article"
-              key={member.img}
+              key={member.title}
               delay={index * 120}
               className="group flex w-full max-w-[300px] flex-col rounded-xl p-2 transition-colors duration-500 hover:bg-[#111111]/40 sm:max-w-[241px]"
             >
@@ -55,7 +71,7 @@ export default function Team() {
               <div className="px-1 pt-1 text-start">
                 <h3 className="mb-2 text-[18px] text-white">{member.title}</h3>
                 <p className="text-sm leading-relaxed text-gray-400">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  {member.text}
                 </p>
               </div>
             </Reveal>
@@ -75,11 +91,11 @@ export default function Team() {
             />
             <div className="min-w-0 text-start">
               <h2 className="mb-1 text-[clamp(20px,2.4vw,32px)] font-bold text-white">
-                Have any project idea?
+                Have a project in mind?
               </h2>
               <p className="text-[clamp(12px,1.4vw,14px)] leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                fugit pariatur aliquid porro blanditiis deleniti!
+                Let&apos;s build a fast, accessible React interface — from a
+                landing page to a full product UI.
               </p>
             </div>
           </div>

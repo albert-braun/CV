@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import "./Hero.css";
 import Reveal from "../Reveal/Reveal";
+import { resume } from "../../data/resume";
 import arrowIcon from "../../images/Hero/arrow.svg";
 import avatar from "../../images/Hero/avatar.png";
 import Star from "../../images/Hero/star.png";
@@ -40,14 +41,14 @@ export default function Hero() {
             <h1 className="mb-[clamp(10px,2.2svh,22px)] text-[clamp(36px,5.4vw,62px)] font-light leading-[1.08] tracking-[1px] text-white">
               This is your
               <span className="block">front-end developer</span>
-              <span className="hero__name block font-extrabold">Albert Braun</span>
+              <span className="hero__name block font-extrabold">{resume.name}</span>
             </h1>
           </Reveal>
 
           <Reveal delay={140}>
             <p className="mx-auto max-w-[470px] text-[clamp(14px,1.6vw,16px)] leading-7 text-white/70 lg:mx-0">
-              I develop and build fast, accessible interfaces — from landing pages
-              to product UI. Let&apos;s turn your idea into a polished website.
+              {resume.tagline} I specialise in JavaScript, React and Redux —
+              from landing pages to product UI.
             </p>
           </Reveal>
 
@@ -58,13 +59,13 @@ export default function Hero() {
                 className="hero__button min-w-[180px] cursor-pointer rounded-[29px] border border-[#194BFD] px-[22px] text-[14px] font-semibold leading-[44px] text-white transition-all duration-500"
                 onClick={() => setOpen(true)}
               >
-                Discuss for Projects
+                Contact me
               </button>
               <a
                 href="#portfolios"
                 className="hero__link inline-flex items-center gap-[10px] text-[14px] text-white"
               >
-                View Portfolios
+                View projects
                 <img src={arrowIcon} alt="" className="h-[13px] w-[28px]" />
               </a>
             </div>
@@ -95,7 +96,7 @@ export default function Hero() {
           <div className="hero__glow absolute bottom-[8%] size-[clamp(180px,36vw,380px)] rounded-full" />
           <img
             src={avatar}
-            alt="Albert Braun"
+            alt={resume.name}
             className="hero__avatar relative z-10 h-full w-auto max-w-full object-contain object-bottom"
           />
 
@@ -127,7 +128,7 @@ export default function Hero() {
               />
               <text className="curved-text">
                 <textPath href="#heroTextPath" startOffset="0%">
-                  100% Skilled in WebDev •
+                  Front-End React Developer •
                 </textPath>
               </text>
             </svg>

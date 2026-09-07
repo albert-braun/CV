@@ -1,14 +1,15 @@
 import Arrow from "../../images/Work/Arrow.png";
 import Reveal from "../Reveal/Reveal";
+import { resume } from "../../data/resume";
 import "./Work.css";
 
 const STEPS = [
-  { label: "Empathize" },
-  { label: "Define" },
-  { label: "Ideate" },
-  { label: "Prototype" },
-  { label: "Qualitative\ntest" },
-  { label: "Quantitative\ntest" },
+  { label: "Discover" },
+  { label: "Structure" },
+  { label: "Build UI" },
+  { label: "State" },
+  { label: "Test" },
+  { label: "Ship" },
 ];
 
 export default function Work() {
@@ -25,10 +26,7 @@ export default function Work() {
           <h2 className="mb-[10px] text-[clamp(28px,4vw,32px)] tracking-[1px] text-white">
             My <span className="text-[#194BFD]">work process</span>
           </h2>
-          <p className="max-w-[426px] leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            nostrum cum doloribus incidunt, aliquid pariatur?
-          </p>
+          <p className="max-w-[540px] leading-6">{resume.about}</p>
         </Reveal>
 
         <ol className="work__track">

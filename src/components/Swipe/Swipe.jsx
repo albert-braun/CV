@@ -17,7 +17,7 @@ export default function Swipe({ arrProjects = [] }) {
       <h3 className="uppercase text-[clamp(11px,1.5vw,14px)] text-gray-400 tracking-[clamp(1px,0.1vw,2px)]  mb-[0.5em]">Portfolios</h3>
  
       <h2 className="text-[#fff] text-[clamp(20px,2vw,32px)] font-bold tracking-wide mb-[0.3em]">My <span className="text-[#194BFD] ">completed projects</span></h2>
-      <p className="text-gray-400 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fuga sapiente eveniet quidem officiis dolores.</p>
+      <p className="text-gray-400 tracking-wide">Selected front-end work: shops, landings and UI kits built with React, HTML and CSS.</p>
     </Reveal>
   </div>
 
@@ -58,9 +58,12 @@ export default function Swipe({ arrProjects = [] }) {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full h-[269px] bg-[#16171d] rounded-[12px] border border-white/10 overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-300"
+            className="relative block w-full h-[269px] bg-[#16171d] rounded-[12px] border border-white/10 overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-300"
           >
             <img src={item.img} alt={item.title} className="w-full h-full object-cover object-top" />
+            <span className="absolute inset-x-0 bottom-0 bg-black/55 px-3 py-2 text-left text-[13px] font-medium text-white">
+              {item.title}
+            </span>
           </a>
         </SwiperSlide>
       ))}
@@ -91,9 +94,12 @@ export default function Swipe({ arrProjects = [] }) {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full h-[269px] bg-[#16171d] rounded-[12px] border border-white/10 overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-300"
+            className="relative block w-full h-[269px] bg-[#16171d] rounded-[12px] border border-white/10 overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-300"
           >
             <img src={item.img} alt={item.title} className="w-full h-full object-cover object-top" />
+            <span className="absolute inset-x-0 bottom-0 bg-black/55 px-3 py-2 text-left text-[13px] font-medium text-white">
+              {item.title}
+            </span>
           </a>
         </SwiperSlide>
       ))}

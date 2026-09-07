@@ -1,4 +1,5 @@
 import Reveal from "../Reveal/Reveal";
+import { resume } from "../../data/resume";
 import logo from "../../images/Footer/logo.svg";
 import instagram from "../../images/Footer/in.svg";
 import facebook from "../../images/Footer/f.svg";
@@ -10,26 +11,26 @@ import location from "../../images/Footer/location.svg";
 
 const QUICK_LINKS = [
   { href: "#home", label: "Home" },
-  { href: "#services", label: "Service" },
-  { href: "#portfolios", label: "Projects" },
   { href: "#about", label: "About" },
-  { href: "#client", label: "Client" },
+  { href: "#skills", label: "Skills" },
+  { href: "#portfolios", label: "Projects" },
+  { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
 
 const IMPORTANT_LINKS = [
-  { href: "#", label: "Career" },
-  { href: "#", label: "Terms & Conditions" },
-  { href: "#", label: "Privacy Policy" },
-  { href: "#", label: "Cookies Policy" },
-  { href: "#", label: "Social Work" },
+  { href: resume.github, label: "GitHub" },
+  { href: resume.linkedin, label: "LinkedIn" },
+  { href: resume.telegram, label: "Telegram" },
+  { href: resume.githubRepos, label: "Repositories" },
+  { href: `mailto:${resume.email}`, label: "Email" },
 ];
 
 const SOCIALS = [
-  { href: "https://instagram.com", src: instagram, label: "Instagram" },
-  { href: "https://youtube.com", src: youtube, label: "YouTube" },
-  { href: "https://x.com", src: twitter, label: "X" },
-  { href: "https://facebook.com", src: facebook, label: "Facebook" },
+  { href: resume.linkedin, src: instagram, label: "LinkedIn" },
+  { href: resume.github, src: youtube, label: "GitHub" },
+  { href: resume.telegram, src: twitter, label: "Telegram" },
+  { href: resume.githubRepos, src: facebook, label: "Repositories" },
 ];
 
 export default function Footer() {
@@ -46,12 +47,10 @@ export default function Footer() {
               className="mb-5 inline-flex items-center gap-2 text-[16px] font-bold text-white"
             >
               <img src={logo} alt="" className="h-6 w-6" />
-              frontend developer
+              {resume.shortTitle}
             </a>
             <p className="mb-5 max-w-[320px] text-[14px] leading-5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-              accusantium quidem ipsa ab maiores vel rerum nemo est nobis qui!
-              accusantium quidem ipsa
+              {resume.name} — {resume.title}. {resume.tagline}
             </p>
             <div className="flex gap-3">
               {SOCIALS.map((social) => (
@@ -87,9 +86,9 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <nav aria-label="Important links">
+          <nav aria-label="Profile links">
             <h3 className="mb-4 text-[16px] font-bold tracking-wider text-white">
-              Important
+              Profile
             </h3>
             <ul className="flex flex-col gap-1">
               {IMPORTANT_LINKS.map((link) => (
@@ -97,6 +96,8 @@ export default function Footer() {
                   <a
                     className="text-[14px] italic transition-colors duration-300 hover:text-white"
                     href={link.href}
+                    target={link.href.startsWith("http") ? "_blank" : undefined}
+                    rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   >
                     {link.label}
                   </a>
@@ -113,25 +114,25 @@ export default function Footer() {
               <li>
                 <a
                   className="flex items-center gap-2.5 text-[14px] italic transition-colors duration-300 hover:text-white"
-                  href="tel:+223456789"
+                  href={resume.phoneHref}
                 >
                   <img src={call} alt="" className="h-[15px] w-[15px] shrink-0" />
-                  +223 456 789
+                  {resume.phone}
                 </a>
               </li>
               <li>
                 <a
                   className="flex min-w-0 items-center gap-2.5 text-[14px] italic transition-colors duration-300 hover:text-white"
-                  href="mailto:gladium1992@gmail.com"
+                  href={`mailto:${resume.email}`}
                 >
                   <img src={send} alt="" className="h-[15px] w-[15px] shrink-0" />
-                  <span className="break-all">gladium1992@gmail.com</span>
+                  <span className="break-all">{resume.email}</span>
                 </a>
               </li>
               <li>
                 <a
                   className="flex items-center gap-2.5 text-[14px] italic transition-colors duration-300 hover:text-white"
-                  href="https://maps.google.com/?q=Alicante"
+                  href={resume.locationHref}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -140,7 +141,7 @@ export default function Footer() {
                     alt=""
                     className="h-[15px] w-[15px] shrink-0"
                   />
-                  Alicante
+                  {resume.location}
                 </a>
               </li>
             </ul>
@@ -148,7 +149,7 @@ export default function Footer() {
         </Reveal>
 
         <Reveal delay={160} className="mt-10 border-t border-white/10 py-7 text-center text-[14px] italic tracking-[0.5px]">
-          <span>Copyright 2022 | All Rights Reserved</span>
+          <span>Copyright 2026 | {resume.name}</span>
         </Reveal>
       </div>
     </footer>
