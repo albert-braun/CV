@@ -10,32 +10,32 @@ const SKILLS = [
   {
     title: "JavaScript & TypeScript",
     img: One,
-    text: "Core language skills for interactive, typed front-end applications.",
+    text: "The language of the UI: ES modules, async data, and TypeScript to keep large interfaces typed, readable and easier to refactor.",
   },
   {
     title: "React & Redux",
     img: Two,
-    text: "Component architecture with Redux and Redux Toolkit for app state.",
+    text: "Component-driven React with hooks, plus Redux and Redux Toolkit for shared state, side effects and predictable updates.",
   },
   {
     title: "HTML & CSS",
     img: Three,
-    text: "Semantic markup and styling with CSS, SCSS, LESS and Tailwind.",
+    text: "Semantic markup and responsive CSS architecture — SCSS, LESS and Tailwind — with attention to layout, motion and accessibility.",
   },
   {
     title: "Webpack & Vite",
     img: Four,
-    text: "Modern build tooling for fast local development and production builds.",
+    text: "Modern bundling for a fast local loop and production builds: code splitting, assets and a setup a team can actually run.",
   },
   {
     title: "Git & GitHub",
     img: Five,
-    text: "Version control across GitHub, GitLab and Bitbucket in team workflows.",
+    text: "Branching, reviews and clean history on GitHub, GitLab and Bitbucket — the same Git workflow used in product teams.",
   },
   {
     title: "Figma & Photoshop",
     img: Six,
-    text: "Design-to-code: I turn Figma and Photoshop layouts into React UI.",
+    text: "Close to design: inspect Figma, match spacing and type, and ship interfaces that look like the file — not an approximation.",
   },
 ];
 
@@ -53,9 +53,11 @@ export default function Services() {
           <h2 className="mb-[10px] text-[clamp(28px,4vw,32px)] tracking-[1px] text-white">
             My <span className="text-[#194BFD]">tech stack</span>
           </h2>
-          <p className="mx-auto max-w-[426px] leading-6">
-            JavaScript, React, Redux, TypeScript, HTML/CSS, Vite, Git and Figma
-            — the tools I use to ship front-end work.
+          <p className="mx-auto max-w-[480px] leading-6">
+            A focused front-end stack: JavaScript and TypeScript, React with
+            Redux, semantic HTML/CSS, Vite or Webpack, Git, and Figma. I use
+            these tools the way product teams do — to ship UI that is reusable,
+            reviewable and ready for production.
           </p>
         </Reveal>
 

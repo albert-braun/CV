@@ -6,19 +6,19 @@ import "./Special.css";
 
 const SPECIALITIES = [
   {
-    name: "React & Redux",
+    name: "React architecture",
     img: One,
-    text: "Product UI with React, Redux and Redux Toolkit — scalable components and clear state.",
+    text: "Reusable components, hooks and Redux Toolkit so product UI stays predictable as features grow — the same approach used on mature React codebases.",
   },
   {
     name: "JavaScript & TypeScript",
     img: Two,
-    text: "Modern JavaScript and TypeScript for maintainable front-end code in agile teams.",
+    text: "Modern ES and TypeScript for safer, maintainable front-end code: async flows, clear modules, and fewer regressions in team review.",
   },
   {
-    name: "UI from Figma",
+    name: "Design to production",
     img: Three,
-    text: "Pixel-accurate, responsive layouts from Figma and Photoshop — HTML, CSS, SCSS and Tailwind.",
+    text: "Pixel-accurate, responsive implementation from Figma and Photoshop — semantic HTML, CSS/SCSS/Tailwind, accessibility and performance baked in.",
   },
 ];
 
@@ -32,8 +32,9 @@ export default function Special() {
           <span className="text-[#194BFD] tracking-[3px]"> specialities</span>
         </h2>
         <p>
-          Front-end work I focus on: React interfaces, JavaScript, and turning
-          design files into production UI.
+          I specialise in taking a design system and a product brief and turning
+          them into a React interface that is fast, accessible and ready for a
+          team to extend.
         </p>
       </Reveal>
       <div className="flex flex-wrap items-center justify-center gap-[10px]">

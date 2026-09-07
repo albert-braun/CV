@@ -47,8 +47,7 @@ export default function Hero() {
 
           <Reveal delay={140}>
             <p className="mx-auto max-w-[470px] text-[clamp(14px,1.6vw,16px)] leading-7 text-white/70 lg:mx-0">
-              {resume.tagline} I specialise in JavaScript, React and Redux —
-              from landing pages to product UI.
+              {resume.hero}
             </p>
           </Reveal>
 

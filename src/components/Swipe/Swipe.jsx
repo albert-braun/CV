@@ -17,7 +17,7 @@ export default function Swipe({ arrProjects = [] }) {
       <h3 className="uppercase text-[clamp(11px,1.5vw,14px)] text-gray-400 tracking-[clamp(1px,0.1vw,2px)]  mb-[0.5em]">Portfolios</h3>
  
       <h2 className="text-[#fff] text-[clamp(20px,2vw,32px)] font-bold tracking-wide mb-[0.3em]">My <span className="text-[#194BFD] ">completed projects</span></h2>
-      <p className="text-gray-400 tracking-wide">Selected front-end work: shops, landings and UI kits built with React, HTML and CSS.</p>
+      <p className="text-gray-400 tracking-wide">Selected interfaces I have shipped: e-commerce, fashion storefronts, studio landings and UI kits — React, HTML and CSS, built to match design and behave well on real devices.</p>
     </Reveal>
   </div>
 

@@ -12,22 +12,22 @@ const STACK = [
   {
     img: one,
     title: "Node.js",
-    text: "JavaScript on the server when a project needs APIs or tooling around the UI.",
+    text: "JavaScript beyond the browser: scripts, tooling and APIs that sit next to the React app when the UI needs a backend edge.",
   },
   {
     img: two,
     title: "Tailwind CSS",
-    text: "Utility-first styling for fast, consistent layouts next to SCSS and LESS.",
+    text: "Utility-first styling for consistent spacing and type, used alongside SCSS and LESS when a project already has a CSS architecture.",
   },
   {
     img: three,
     title: "Redux Toolkit",
-    text: "Predictable state for larger React apps, on top of classic Redux.",
+    text: "Slices, thunks and a single store for larger React products — less boilerplate than classic Redux, same predictable data flow.",
   },
   {
     img: four,
     title: "GitLab & Bitbucket",
-    text: "Same Git workflow across GitHub, GitLab and Bitbucket in team projects.",
+    text: "The same Git habits on every host: feature branches, pull requests and reviews, whether the remote is GitHub, GitLab or Bitbucket.",
   },
 ];
 
@@ -42,9 +42,10 @@ export default function Team() {
           <h2 className="mb-[10px] text-[clamp(28px,4vw,32px)] tracking-[1px] text-white">
             More <span className="text-[#194BFD]">tools I work with</span>
           </h2>
-          <p className="mx-auto max-w-[426px] leading-6">
-            Node.js, Tailwind, Redux Toolkit and Git across GitHub, GitLab and
-            Bitbucket — the rest of the stack from my CV.
+          <p className="mx-auto max-w-[480px] leading-6">
+            Beyond the core React stack I work with Node.js for tooling, Tailwind
+            for rapid UI, Redux Toolkit for app state, and Git on GitHub, GitLab
+            or Bitbucket — whatever the team already uses.
           </p>
         </Reveal>
 
@@ -94,8 +95,8 @@ export default function Team() {
                 Have a project in mind?
               </h2>
               <p className="text-[clamp(12px,1.4vw,14px)] leading-relaxed">
-                Let&apos;s build a fast, accessible React interface — from a
-                landing page to a full product UI.
+                If you have a Figma file or a product idea, I can turn it into a
+                React interface that is fast, accessible and ready to ship.
               </p>
             </div>
           </div>
