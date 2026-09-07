@@ -1,9 +1,9 @@
-Albert Braun
-Front-End / React Developer, 6+ years of experience
+* Albert Braun
+* Front-End / React Developer
 
-Contact Information
-📧 albertbraun009@gmail.com
-📱 +34 657 046 412
-🌐 www.linkedin.com/in/albert-braun-09a141434
-💻 GitHub
-💬 Telegram
+* Contact Information
+* 📧 albertbraun009@gmail.com
+* 📱 +34 657 046 412
+* 🌐 [LinkedIn](www.linkedin.com/in/albert-braun-09a141434)
+* 💻 [GitHub](https://github.com)
+* 💬 Telegram
