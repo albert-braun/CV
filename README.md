@@ -1,20 +1,24 @@
-# Albert Braun — Frontend Developer
+# Albert Braun
 
-Personal landing. React, TypeScript, Vite, Tailwind.
+Personal frontend landing and resume site: hero, selected projects, stack, services, work process, and a contact modal.
 
-**Live:** [https://albert-braun.github.io/CV/](https://albert-braun.github.io/CV/)
+**Live:** [albert-braun.github.io/CV](https://albert-braun.github.io/CV/)
+
+## What it does
+
+- **Hero** — intro, portrait, and contact CTA
+- **Projects** — selected UI work with links
+- **Stack / services** — React, JavaScript, Redux, and how I work
+- **Process** — from Figma to a reviewable UI
+- **Contact** — discuss-a-project modal and footer
+
+**Stack:** React · TypeScript · Vite · Tailwind CSS
 
 ## Run locally
 
 ```bash
-git clone https://github.com/albert-braun/CV.git
-cd CV
 npm install
 npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173).
-
-## Stack
-
-React, TypeScript, Vite, Tailwind CSS. From Figma to a production UI.
