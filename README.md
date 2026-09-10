@@ -18,7 +18,7 @@ Project-based development · Alicante, Spain / Remote
 
 - Built a Slack-style messenger on a Next.js REST API with cookie auth, role-based access, Vitest + Playwright tests and GitHub Actions deploy.
 - Built a live TypeScript operations console: streaming KPIs, Recharts, a SOC-style journal and an attack simulation drill, deployed via GitHub Actions.
-- Built React + TypeScript storefronts with Zustand/Redux carts, Fuse.js search, Zod-validated checkout and GitHub Pages CI.
+- Took Figma shop layouts to working storefronts: fuzzy product search, a persisted cart and wishlist, and schema-validated checkout with React Hook Form and Zod.
 
 ## Selected work
 
