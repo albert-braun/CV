@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#F4F1EA"/>
+  <rect width="1600" height="72" fill="#FFFFFF"/>
+  <text x="48" y="46" fill="#1F3A2E" font-family="Georgia" font-size="28" font-weight="700">FOLIA</text>
+  <text x="720" y="44" fill="#4B5563" font-family="Arial" font-size="16">Shop</text>
+  <text x="800" y="44" fill="#4B5563" font-family="Arial" font-size="16">About</text>
+  <text x="890" y="44" fill="#4B5563" font-family="Arial" font-size="16">Contact</text>
+  <rect x="48" y="116" width="920" height="520" rx="24" fill="#D7E3D4"/>
+  <circle cx="508" cy="360" r="150" fill="#7C9A72"/>
+  <circle cx="508" cy="360" r="90" fill="#4F6F4A"/>
+  <rect x="430" y="490" width="156" height="90" rx="12" fill="#6B4F32"/>
+  <text x="80" y="180" fill="#1F3A2E" font-family="Georgia" font-size="52">Bring the forest home.</text>
+  <text x="80" y="240" fill="#4B5563" font-family="Arial" font-size="20">Indoor plants, quiet delivery, calm product UI.</text>
+  <rect x="80" y="280" width="180" height="48" rx="24" fill="#1F3A2E"/>
+  <text x="118" y="310" fill="#FFFFFF" font-family="Arial" font-size="16">Shop plants</text>
+  <rect x="996" y="116" width="260" height="320" rx="20" fill="#FFFFFF"/>
+  <rect x="1020" y="140" width="212" height="180" rx="12" fill="#C9D8C4"/>
+  <text x="1020" y="360" fill="#1F3A2E" font-family="Arial" font-size="18">Monstera</text>
+  <text x="1020" y="390" fill="#6B7280" font-family="Arial" font-size="16">$28</text>
+  <rect x="1284" y="116" width="268" height="320" rx="20" fill="#FFFFFF"/>
+  <rect x="1308" y="140" width="220" height="180" rx="12" fill="#B7C9B2"/>
+  <text x="1308" y="360" fill="#1F3A2E" font-family="Arial" font-size="18">Olive tree</text>
+  <text x="1308" y="390" fill="#6B7280" font-family="Arial" font-size="16">$42</text>
+  <rect x="996" y="460" width="556" height="176" rx="20" fill="#FFFFFF"/>
+  <rect x="48" y="668" width="496" height="284" rx="20" fill="#FFFFFF"/>
+  <rect x="568" y="668" width="496" height="284" rx="20" fill="#FFFFFF"/>
+  <rect x="1088" y="668" width="464" height="284" rx="20" fill="#FFFFFF"/>
+</svg>
