@@ -1,4 +1,5 @@
 import type { Project } from '../types'
+import { publicUrl } from '../lib/publicUrl'
 
 export const featuredProjects: Project[] = [
   {
@@ -8,7 +9,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/dashboard',
     liveUrl: 'https://albert-braun.github.io/dashboard/',
     language: 'TypeScript',
-    cover: '/previews/dashboard.svg',
+    cover: publicUrl('previews/dashboard.svg'),
   },
   {
     repo: 'Online-plant-shop',
@@ -17,7 +18,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/Online-plant-shop',
     liveUrl: 'https://albert-braun.github.io/Online-plant-shop/',
     language: 'JavaScript',
-    cover: '/previews/folia.png',
+    cover: publicUrl('previews/folia.png'),
   },
   {
     repo: 'Online-clothing-store',
@@ -26,7 +27,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/Online-clothing-store',
     liveUrl: 'https://albert-braun.github.io/Online-clothing-store/',
     language: 'TypeScript',
-    cover: '/previews/fashion.png',
+    cover: publicUrl('previews/fashion.png'),
   },
   {
     repo: 'Web-shop',
@@ -35,7 +36,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/Web-shop',
     liveUrl: 'https://albert-braun.github.io/Web-shop/',
     language: 'JavaScript',
-    cover: '/previews/web-shop.png',
+    cover: publicUrl('previews/web-shop.png'),
   },
   {
     repo: 'big-page',
@@ -44,7 +45,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/big-page',
     liveUrl: 'https://albert-braun.github.io/big-page/',
     language: 'CSS',
-    cover: '/previews/big-page.png',
+    cover: publicUrl('previews/big-page.png'),
   },
   {
     repo: 'first-project',
@@ -53,7 +54,7 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/first-project',
     liveUrl: 'https://albert-braun.github.io/first-project/',
     language: 'JavaScript',
-    cover: '/previews/first-project.png',
+    cover: publicUrl('previews/first-project.png'),
   },
   {
     repo: 'third-project',
@@ -62,6 +63,6 @@ export const featuredProjects: Project[] = [
     htmlUrl: 'https://github.com/albert-braun/third-project',
     liveUrl: 'https://albert-braun.github.io/third-project/',
     language: 'JavaScript',
-    cover: '/previews/third-project.png',
+    cover: publicUrl('previews/third-project.png'),
   },
 ]

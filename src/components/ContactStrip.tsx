@@ -1,3 +1,5 @@
+import { publicUrl } from '../lib/publicUrl'
+
 type ContactStripProps = {
   onContact: () => void
 }
@@ -7,7 +9,7 @@ export function ContactStrip({ onContact }: ContactStripProps) {
     <section className="px-5 py-16 md:px-8">
       <div className="relative mx-auto max-w-[1160px] overflow-hidden rounded-[28px]">
         <img
-          src="/cta-room.jpg"
+          src={publicUrl('cta-room.jpg')}
           alt=""
           className="absolute inset-0 h-full w-full object-cover object-[center_60%] brightness-[0.32] saturate-[0.5]"
         />
