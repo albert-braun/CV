@@ -3,6 +3,15 @@ import { publicUrl } from '../lib/publicUrl'
 
 export const featuredProjects: Project[] = [
   {
+    repo: 'cooperative-messenger',
+    title: 'Nexus Messenger',
+    description: 'Slack-style corporate messenger: workspaces, channels, DMs, and role-based chat.',
+    htmlUrl: 'https://github.com/albert-braun/cooperative-messenger',
+    liveUrl: 'https://albert-braun.github.io/cooperative-messenger/',
+    language: 'TypeScript',
+    cover: publicUrl('previews/nexus.svg'),
+  },
+  {
     repo: 'dashboard',
     title: 'Aegis Dashboard',
     description: 'Real-time cybersecurity console with live telemetry, attack simulation, and a SOC-style journal.',
@@ -12,15 +21,6 @@ export const featuredProjects: Project[] = [
     cover: publicUrl('previews/dashboard.svg'),
   },
   {
-    repo: 'Online-plant-shop',
-    title: 'FOLIA Plant Shop',
-    description: 'Minimalist plant storefront — catalogue, cart, and a calm product UI in React and Tailwind.',
-    htmlUrl: 'https://github.com/albert-braun/Online-plant-shop',
-    liveUrl: 'https://albert-braun.github.io/Online-plant-shop/',
-    language: 'JavaScript',
-    cover: publicUrl('previews/folia.png'),
-  },
-  {
     repo: 'Online-clothing-store',
     title: 'FASCO Store',
     description: 'Fashion e-commerce with filters, cart, wishlist, and validated checkout-oriented flows.',
@@ -28,6 +28,15 @@ export const featuredProjects: Project[] = [
     liveUrl: 'https://albert-braun.github.io/Online-clothing-store/',
     language: 'TypeScript',
     cover: publicUrl('previews/fashion.png'),
+  },
+  {
+    repo: 'Online-plant-shop',
+    title: 'FOLIA Plant Shop',
+    description: 'Minimalist plant storefront — catalogue, cart, and a calm product UI in React and Tailwind.',
+    htmlUrl: 'https://github.com/albert-braun/Online-plant-shop',
+    liveUrl: 'https://albert-braun.github.io/Online-plant-shop/',
+    language: 'JavaScript',
+    cover: publicUrl('previews/folia.svg'),
   },
   {
     repo: 'Web-shop',

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#0E1117"/>
+  <rect width="72" height="1000" fill="#161B22"/>
+  <circle cx="36" cy="48" r="16" fill="#3D5AFE"/>
+  <circle cx="36" cy="96" r="16" fill="#2D333B"/>
+  <circle cx="36" cy="144" r="16" fill="#2D333B"/>
+  <circle cx="36" cy="940" r="16" fill="#58A6FF"/>
+  <rect x="72" y="0" width="280" height="1000" fill="#1C2128"/>
+  <text x="96" y="48" fill="#8B949E" font-family="Arial" font-size="14">NEXUS HQ</text>
+  <text x="96" y="92" fill="#FFFFFF" font-family="Arial" font-size="18" font-weight="700"># general</text>
+  <text x="96" y="128" fill="#8B949E" font-family="Arial" font-size="16"># random</text>
+  <text x="96" y="200" fill="#6E7681" font-family="Arial" font-size="12">DIRECT MESSAGES</text>
+  <circle cx="108" cy="236" r="6" fill="#3FB950"/>
+  <text x="124" y="242" fill="#C9D1D9" font-family="Arial" font-size="15">Maya Chen</text>
+  <circle cx="108" cy="272" r="6" fill="#D29922"/>
+  <text x="124" y="278" fill="#C9D1D9" font-family="Arial" font-size="15">Alex Rivera</text>
+  <rect x="352" y="0" width="1248" height="72" fill="#161B22"/>
+  <text x="380" y="44" fill="#FFFFFF" font-family="Arial" font-size="22" font-weight="700"># general</text>
+  <rect x="380" y="120" width="52" height="52" rx="10" fill="#3D5AFE"/>
+  <text x="448" y="142" fill="#8B949E" font-family="Arial" font-size="14">Alex Rivera</text>
+  <text x="448" y="168" fill="#C9D1D9" font-family="Arial" font-size="16">Standup in 10 - design review is in #random.</text>
+  <rect x="380" y="200" width="52" height="52" rx="10" fill="#238636"/>
+  <text x="448" y="222" fill="#8B949E" font-family="Arial" font-size="14">Maya Chen</text>
+  <text x="448" y="248" fill="#C9D1D9" font-family="Arial" font-size="16">PR is up. Guest role is read-only as planned.</text>
+  <rect x="380" y="900" width="1180" height="56" rx="12" fill="#21262D"/>
+  <text x="404" y="934" fill="#6E7681" font-family="Arial" font-size="16">Message #general</text>
+</svg>

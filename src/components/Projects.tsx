@@ -50,7 +50,7 @@ export function Projects() {
           My <span className="text-blue">completed projects</span>
         </h2>
         <p className="text-sm leading-6 text-gray-400">
-          Selected interfaces from GitHub: e-commerce, studio landings and product UI — React, TypeScript and CSS, built to match design.
+          Selected work from GitHub: a corporate messenger, a live ops dashboard, e-commerce and studio landings — React, TypeScript and Next.js.
         </p>
       </Reveal>
 
