@@ -2,7 +2,9 @@
 **Front-End Developer · React & TypeScript**  
 Alicante, Spain · Remote
 
-[Portfolio](https://albert-braun.github.io/CV/) · [GitHub](https://github.com/albert-braun) · [LinkedIn](https://www.linkedin.com/in/albert-braun-09a141434/) · [Telegram](https://t.me/Albert_Braun9)  
+**Live site:** [https://albert-braun.github.io/CV/](https://albert-braun.github.io/CV/)
+
+[GitHub](https://github.com/albert-braun) · [LinkedIn](https://www.linkedin.com/in/albert-braun-09a141434/) · [Telegram](https://t.me/Albert_Braun9)  
 [albertbraun030@gmail.com](mailto:albertbraun030@gmail.com) · [+34 657 046 412](tel:+34657046412)
 
 ---
@@ -73,7 +75,7 @@ Ivano-Frankivsk National Medical University
 
 ---
 
-This repository is the live portfolio site. **[Open the page](https://albert-braun.github.io/CV/)**
+This repository is the live portfolio. Open it here: **[https://albert-braun.github.io/CV/](https://albert-braun.github.io/CV/)**
 
 ```bash
 npm install
