@@ -11,7 +11,7 @@ Alicante, Spain · Remote
 
 ## Summary
 
-Front-End Developer focused on React and TypeScript. I ship production UIs from Figma: REST-backed apps, validated forms, tests and GitHub Actions deploys. Recent work includes a corporate messenger with role-based auth, a live operations dashboard, and e-commerce storefronts.
+Front-End Developer focused on React and TypeScript. I ship production UIs from Figma: REST-backed apps, validated forms, tests and GitHub Actions deploys. Recent work includes ARCA, a Next.js shop, a corporate messenger with role-based auth, and a live operations dashboard.
 
 ## Experience
 
@@ -20,9 +20,16 @@ Alicante, Spain / Remote
 
 - Built a Slack-style messenger on a Next.js REST API with cookie auth, role-based access, Vitest + Playwright tests and GitHub Actions deploy.
 - Built a live TypeScript operations console: streaming KPIs, Recharts, a SOC-style journal and an attack simulation drill, deployed via GitHub Actions.
+- Built ARCA, a Next.js storefront: catalog filters, debounced search, a cart that recalculates totals, and checkout validated with React Hook Form and Zod.
 - Took Figma shop layouts to working storefronts: fuzzy product search, a persisted cart and wishlist, and schema-validated checkout with React Hook Form and Zod.
 
 ## Selected work
+
+### ARCA — Shop
+Next.js storefront with catalog filters, search, a live cart, and checkout checked with Zod. Orders stay in the browser; card details are never sent to a server.
+
+- **Live:** [albert-braun.github.io/ARCA](https://albert-braun.github.io/ARCA/)
+- **Repo:** [github.com/albert-braun/ARCA](https://github.com/albert-braun/ARCA)
 
 ### Nexus — Corporate Messenger
 Next.js + TypeScript workspace app on a REST API with cookie auth. Role-based access (Admin / Member / Guest), infinite chat via TanStack Query, Vitest + Playwright coverage, GitHub Actions deploy.
@@ -53,7 +60,6 @@ Minimalist plant storefront: catalogue filters, cart drawer, Redux Toolkit.
 | --- | --- | --- |
 | Web Shop | [demo](https://albert-braun.github.io/Web-shop/) | [GitHub](https://github.com/albert-braun/Web-shop) |
 | Cuatro / Arik | [demo](https://albert-braun.github.io/big-page/) | [GitHub](https://github.com/albert-braun/big-page) |
-| Wishbone+Partners | [demo](https://albert-braun.github.io/first-project/) | [GitHub](https://github.com/albert-braun/first-project) |
 | Aperture Studios | [demo](https://albert-braun.github.io/third-project/) | [GitHub](https://github.com/albert-braun/third-project) |
 
 ## Skills

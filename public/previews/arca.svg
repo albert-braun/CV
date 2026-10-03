@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#F3EFE6"/>
+  <rect width="1600" height="88" fill="#F3EFE6"/>
+  <line x1="0" y1="88" x2="1600" y2="88" stroke="#DDD4C6"/>
+  <text x="64" y="58" fill="#1C1915" font-family="Georgia, serif" font-size="40" font-style="italic">ARCA</text>
+  <rect x="280" y="26" width="720" height="40" rx="20" fill="#FFFDF8" stroke="#DDD4C6"/>
+  <text x="304" y="52" fill="#5E574E" font-family="Arial" font-size="16">Find a backpack, monitor, ring</text>
+  <text x="1080" y="54" fill="#1C1915" font-family="Arial" font-size="16">Catalog</text>
+  <text x="1200" y="54" fill="#1C1915" font-family="Arial" font-size="16">Account</text>
+  <circle cx="1388" cy="46" r="16" stroke="#1C1915" stroke-width="1.6"/>
+  <path d="M1380 46h16M1388 40v8" stroke="#1C1915" stroke-width="1.6" stroke-linecap="round"/>
+
+  <text x="64" y="180" fill="#A24E2D" font-family="Arial" font-size="14" font-weight="700" letter-spacing="3">THE SHOP</text>
+  <text x="64" y="260" fill="#1C1915" font-family="Georgia, serif" font-size="64">Things worth</text>
+  <text x="64" y="332" fill="#1C1915" font-family="Georgia, serif" font-size="64" font-style="italic">choosing slowly.</text>
+  <text x="64" y="400" fill="#5E574E" font-family="Arial" font-size="20">Clothes, jewelry, and electronics.</text>
+  <text x="64" y="432" fill="#5E574E" font-family="Arial" font-size="20">Filters, search, and a live cart.</text>
+  <rect x="64" y="480" width="250" height="52" rx="26" fill="#1E3F33"/>
+  <text x="92" y="513" fill="#F3EFE6" font-family="Arial" font-size="16">Browse the catalog</text>
+
+  <rect x="860" y="150" width="320" height="360" rx="24" fill="#E6DFD1"/>
+  <rect x="940" y="210" width="160" height="220" rx="8" fill="#1C1915"/>
+  <rect x="980" y="250" width="80" height="120" fill="#2F6A52"/>
+  <text x="880" y="480" fill="#1C1915" font-family="Arial" font-size="14">Men's clothing</text>
+
+  <rect x="1200" y="150" width="320" height="360" rx="24" fill="#FFFDF8" stroke="#DDD4C6"/>
+  <circle cx="1360" cy="310" r="70" fill="none" stroke="#A24E2D" stroke-width="18"/>
+  <text x="1220" y="480" fill="#1C1915" font-family="Arial" font-size="14">Jewelry</text>
+
+  <rect x="860" y="530" width="320" height="360" rx="24" fill="#FFFDF8" stroke="#DDD4C6"/>
+  <rect x="960" y="620" width="120" height="80" rx="6" fill="#1C1915"/>
+  <rect x="990" y="700" width="60" height="8" fill="#1C1915"/>
+  <text x="880" y="850" fill="#1C1915" font-family="Arial" font-size="14">Electronics</text>
+
+  <rect x="1200" y="530" width="320" height="360" rx="24" fill="#E6DFD1"/>
+  <path d="M1280 760c40-120 160-120 180 0" stroke="#2F6A52" stroke-width="16" stroke-linecap="round"/>
+  <text x="1220" y="850" fill="#1C1915" font-family="Arial" font-size="14">Women's clothing</text>
+</svg>

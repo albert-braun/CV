@@ -3,6 +3,15 @@ import { publicUrl } from '../lib/publicUrl'
 
 export const featuredProjects: Project[] = [
   {
+    repo: 'ARCA',
+    title: 'ARCA',
+    description: 'Next.js shop: catalog filters, search, a cart that recalculates totals, and checkout checked with Zod.',
+    htmlUrl: 'https://github.com/albert-braun/ARCA',
+    liveUrl: 'https://albert-braun.github.io/ARCA/',
+    language: 'TypeScript',
+    cover: publicUrl('previews/arca.svg'),
+  },
+  {
     repo: 'cooperative-messenger',
     title: 'Nexus Messenger',
     description: 'Slack-style corporate messenger: workspaces, channels, DMs, and role-based chat.',
@@ -55,15 +64,6 @@ export const featuredProjects: Project[] = [
     liveUrl: 'https://albert-braun.github.io/big-page/',
     language: 'CSS',
     cover: publicUrl('previews/big-page.png'),
-  },
-  {
-    repo: 'first-project',
-    title: 'Wishbone+Partners',
-    description: 'Architecture studio landing matched to design — type, space, and responsive breakpoints.',
-    htmlUrl: 'https://github.com/albert-braun/first-project',
-    liveUrl: 'https://albert-braun.github.io/first-project/',
-    language: 'JavaScript',
-    cover: publicUrl('previews/first-project.png'),
   },
   {
     repo: 'third-project',
