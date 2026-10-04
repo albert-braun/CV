@@ -59,7 +59,7 @@ export function Projects() {
           My <span className="text-blue">completed projects</span>
         </h2>
         <p className="text-sm leading-6 text-gray-400">
-          ARCA, a Next.js shop, plus a messenger, a live dashboard, and storefronts in React and TypeScript.
+          A series guide, a canvas climb, a Next.js shop, a messenger, a live dashboard, and storefronts in React and TypeScript.
         </p>
         <a
           href={site.githubRepos}

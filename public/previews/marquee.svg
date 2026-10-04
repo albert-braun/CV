@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#100E0C"/>
+  <rect width="1600" height="88" fill="#100E0C"/>
+  <text x="64" y="58" fill="#F4EFE6" font-family="Arial" font-size="28" font-weight="700" letter-spacing="6">MARQUEE</text>
+  <rect x="420" y="24" width="640" height="44" rx="22" fill="#1B1814" stroke="rgba(244,239,230,0.14)"/>
+  <text x="448" y="52" fill="#B3A89A" font-family="Arial" font-size="16">Search a series</text>
+  <text x="1280" y="54" fill="#E7B656" font-family="Arial" font-size="16">Watchlist</text>
+  <circle cx="1488" cy="46" r="8" fill="#E25B45"/>
+
+  <circle cx="80" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="140" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="200" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="260" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="320" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="380" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="440" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="500" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="560" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="620" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="680" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="740" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="800" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="860" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="920" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="980" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1040" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1100" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1160" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1220" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1280" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1340" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1400" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1460" cy="140" r="4" fill="#E7B656"/>
+  <circle cx="1520" cy="140" r="4" fill="#E7B656"/>
+
+  <text x="64" y="210" fill="#E7B656" font-family="Arial" font-size="14" font-weight="700" letter-spacing="3">NOW SHOWING</text>
+  <text x="64" y="270" fill="#F4EFE6" font-family="Georgia, serif" font-size="52">A guide to series</text>
+  <text x="64" y="328" fill="#B3A89A" font-family="Arial" font-size="20">Infinite list, paused search, watchlist.</text>
+
+  <rect x="64" y="380" width="280" height="420" rx="16" fill="#2A241C"/>
+  <rect x="64" y="380" width="280" height="280" rx="16" fill="#3A2A22"/>
+  <rect x="64" y="620" width="280" height="40" fill="#2A241C"/>
+  <text x="84" y="740" fill="#F4EFE6" font-family="Arial" font-size="18">Dark</text>
+  <text x="84" y="768" fill="#E7B656" font-family="Arial" font-size="14">8.8</text>
+
+  <rect x="376" y="380" width="280" height="420" rx="16" fill="#1B1814" stroke="rgba(244,239,230,0.14)"/>
+  <rect x="376" y="380" width="280" height="280" rx="16" fill="#243044"/>
+  <rect x="376" y="620" width="280" height="40" fill="#1B1814"/>
+  <text x="396" y="740" fill="#F4EFE6" font-family="Arial" font-size="18">The Wire</text>
+  <text x="396" y="768" fill="#E7B656" font-family="Arial" font-size="14">9.3</text>
+
+  <rect x="688" y="380" width="280" height="420" rx="16" fill="#1B1814" stroke="rgba(244,239,230,0.14)"/>
+  <rect x="688" y="380" width="280" height="280" rx="16" fill="#3D2430"/>
+  <rect x="688" y="620" width="280" height="40" fill="#1B1814"/>
+  <text x="708" y="740" fill="#F4EFE6" font-family="Arial" font-size="18">Fleabag</text>
+  <text x="708" y="768" fill="#E7B656" font-family="Arial" font-size="14">8.7</text>
+
+  <rect x="1000" y="380" width="280" height="420" rx="16" fill="#1B1814" stroke="rgba(244,239,230,0.14)"/>
+  <rect x="1000" y="380" width="280" height="280" rx="16" fill="#1E3A32"/>
+  <rect x="1000" y="620" width="280" height="40" fill="#1B1814"/>
+  <text x="1020" y="740" fill="#F4EFE6" font-family="Arial" font-size="18">Succession</text>
+  <text x="1020" y="768" fill="#E7B656" font-family="Arial" font-size="14">8.8</text>
+
+  <rect x="1312" y="380" width="224" height="420" rx="16" fill="#1B1814"/>
+  <rect x="1312" y="380" width="224" height="280" rx="16" fill="#3A3020"/>
+</svg>

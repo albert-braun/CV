@@ -3,6 +3,24 @@ import { publicUrl } from '../lib/publicUrl'
 
 export const featuredProjects: Project[] = [
   {
+    repo: 'MARQUEE',
+    title: 'MARQUEE',
+    description: 'A series guide: an infinite TVMaze catalog, paused search, and a watchlist kept in the browser.',
+    htmlUrl: 'https://github.com/albert-braun/MARQUEE',
+    liveUrl: 'https://albert-braun.github.io/MARQUEE/',
+    language: 'TypeScript',
+    cover: publicUrl('previews/marquee.svg'),
+  },
+  {
+    repo: 'HOLDFAST---game',
+    title: 'HOLDFAST',
+    description: 'A canvas climb across twenty-four ledges: jump, throw a hook, and land without falling through the stone.',
+    htmlUrl: 'https://github.com/albert-braun/HOLDFAST---game',
+    liveUrl: 'https://albert-braun.github.io/HOLDFAST---game/',
+    language: 'JavaScript',
+    cover: publicUrl('previews/holdfast.svg'),
+  },
+  {
     repo: 'ARCA',
     title: 'ARCA',
     description: 'Next.js shop: catalog filters, search, a cart that recalculates totals, and checkout checked with Zod.',

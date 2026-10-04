@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#10151C"/>
+  <text x="64" y="64" fill="#EFE6D6" font-family="Georgia, serif" font-size="28" letter-spacing="8">HOLDFAST</text>
+  <text x="1180" y="64" fill="#CBB892" font-family="Georgia, serif" font-size="18">Twenty-four ledges</text>
+
+  <rect x="220" y="120" width="960" height="544" fill="#141B24" stroke="#3A4656"/>
+  <rect x="220" y="120" width="960" height="70" fill="#1A2430"/>
+  <rect x="280" y="520" width="180" height="22" rx="2" fill="#6D5C45"/>
+  <rect x="520" y="430" width="150" height="18" rx="2" fill="#8A7354"/>
+  <rect x="740" y="340" width="160" height="18" rx="2" fill="#6D5C45"/>
+  <rect x="960" y="250" width="140" height="18" rx="2" fill="#A68B64"/>
+  <rect x="300" y="610" width="800" height="28" fill="#243244"/>
+
+  <circle cx="360" cy="492" r="14" fill="#E2B15A"/>
+  <rect x="352" y="506" width="16" height="28" rx="4" fill="#EFE6D6"/>
+  <line x1="368" y1="500" x2="560" y2="430" stroke="#C4552E" stroke-width="3"/>
+  <circle cx="560" cy="430" r="5" fill="#C4552E"/>
+
+  <rect x="1240" y="160" width="300" height="460" rx="8" fill="#161C26" stroke="#3A4656"/>
+  <text x="1264" y="210" fill="#EFE6D6" font-family="Georgia, serif" font-size="22">How to climb</text>
+  <text x="1264" y="270" fill="#E2B15A" font-family="Georgia, serif" font-size="16">A D</text>
+  <text x="1380" y="270" fill="#CBB892" font-family="Georgia, serif" font-size="16">move</text>
+  <text x="1264" y="320" fill="#E2B15A" font-family="Georgia, serif" font-size="16">W</text>
+  <text x="1380" y="320" fill="#CBB892" font-family="Georgia, serif" font-size="16">jump</text>
+  <text x="1264" y="370" fill="#E2B15A" font-family="Georgia, serif" font-size="16">Mouse</text>
+  <text x="1380" y="370" fill="#CBB892" font-family="Georgia, serif" font-size="16">hook</text>
+  <text x="1264" y="420" fill="#E2B15A" font-family="Georgia, serif" font-size="16">Q</text>
+  <text x="1380" y="420" fill="#CBB892" font-family="Georgia, serif" font-size="16">drop</text>
+  <text x="1264" y="470" fill="#E2B15A" font-family="Georgia, serif" font-size="16">R</text>
+  <text x="1380" y="470" fill="#CBB892" font-family="Georgia, serif" font-size="16">restart</text>
+  <text x="1264" y="540" fill="#CBB892" font-family="Georgia, serif" font-size="15">Each ledge a little harder.</text>
+</svg>

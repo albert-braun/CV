@@ -55,6 +55,18 @@ Minimalist plant storefront: catalogue filters, cart drawer, Redux Toolkit.
 - **Live:** [albert-braun.github.io/Online-plant-shop](https://albert-braun.github.io/Online-plant-shop/)
 - **Repo:** [github.com/albert-braun/Online-plant-shop](https://github.com/albert-braun/Online-plant-shop)
 
+### MARQUEE — Series Guide
+Next.js catalog of series and shows from the public TVMaze API. Infinite list, search that waits until typing stops, and a watchlist kept in the browser.
+
+- **Live:** [albert-braun.github.io/MARQUEE](https://albert-braun.github.io/MARQUEE/)
+- **Repo:** [github.com/albert-braun/MARQUEE](https://github.com/albert-braun/MARQUEE)
+
+### HOLDFAST — Canvas Climb
+Plain HTML, CSS, and JavaScript. Twenty-four ledges, a grappling hook, and collision resolved one axis at a time so a fast fall cannot pass through a floor.
+
+- **Live:** [albert-braun.github.io/HOLDFAST---game](https://albert-braun.github.io/HOLDFAST---game/)
+- **Repo:** [github.com/albert-braun/HOLDFAST---game](https://github.com/albert-braun/HOLDFAST---game)
+
 ### More
 | Project | Live | Repo |
 | --- | --- | --- |
